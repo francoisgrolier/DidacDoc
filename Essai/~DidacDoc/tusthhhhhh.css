@@ -1,0 +1,172 @@
+/*
+
+*/
+
+html, body {background:black;overflow:hidden; margin:0; padding:0;width:100%;height:100%;}
+#audiop { position: absolute;z-index:4;}
+
+#header { 
+position: absolute;
+}
+    #ti{
+    position:absolute;
+    white-space: nowrap;
+    left:4px;
+    }
+    #logo{ 
+    position:absolute;
+    right:0;
+    z-index:2;
+    }
+
+#deb {
+  position:absolute;
+  overflow-y:scroll;
+  overflow-x:visible;
+  margin 0;
+  padding 0;
+  border-top: 1px grey solid;
+  z-index:6;
+}
+
+#ifrd {
+  position:absolute;
+  overflow:hidden;
+  z-index:7;
+  border-top: 1px grey solid;
+}
+
+
+
+/**************************** MENU HORIZONTAL ********/ 
+
+#nav{
+	/*display:block;float:left;*/
+    padding: 0;
+    margin : 0; 
+    cursor:pointer;
+    position:absolute;
+    list-style-type: none;
+    white-space: nowrap;
+    }
+
+#nav li{
+	display:block;
+    float:left; /*menu horizontal*/
+    }
+#nav li:hover>*{display:inline;}
+#nav li:hover{position:relative;display:block;}
+
+#nav ul{
+	display:none;
+    position:absolute;
+    left:0;top:100%;/* menu horizontal */
+    list-style-type: none;
+    /*left:100%;top:0; menu vertical */
+    }
+#nav ul li{float:none;}
+
+
+#nav ul ul{
+    left:100%;
+    top:0;
+    list-style-type: none;
+    }
+/**************************************/
+#nav img{vertical-align:middle;}
+#nav li div:hover{cursor:pointer;position:relative;left:-1px;}
+
+body {background:#A0A0A0 }
+#nav ul{margin-left: 15px;}
+/********************************** MENU : mise en forme ********/
+#nav {
+}
+/******************** LI */
+#nav li{
+}
+#nav li div{
+
+        left-padding:2%;
+        border-radius: 2em;
+        -webkit-border-radius: 2em;
+        -moz-border-radius: 2em;
+        
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        }
+#nav li div:hover{
+background: gray;
+
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        }
+/******************** UL */
+#nav ul{
+}
+#d0{
+font-size:24pt;
+font-weight:bold;
+color:#000000;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li,#d1{
+font-size:12pt;
+font-weight:normal;
+color:#FFFFFF;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li.dir,#d2{
+font-size:18pt;
+font-weight:normal;
+color:#606060;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li.dir,#d3{
+font-size:16pt;
+font-weight:normal;
+color:#D4D4D4;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li.dir,#d4{
+font-size:14pt;
+font-weight:normal;
+color:#E9E9E9;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li li.dir,#d5{
+font-size:18pt;
+font-weight:normal;
+color:white;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li li li.dir,#d6{
+font-size:16pt;
+font-weight:normal;
+color:yellow;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li li li li.dir,#d7{
+font-size:14pt;
+font-weight:normal;
+color:#D88967;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li li li li li.dir,#d8{
+font-size:12pt;
+font-weight:normal;
+color:yellow;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='uft8'?>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'	'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='fr' xml:lang='fr'>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<head>
+<link rel="stylesheet" type="text/css" href="toto.css"/>
+<script type="text/javascript" src="toto.js"></script>
+<script type="text/javascript" src="image.js"></script>
+<style>
+body {margin:0;}
+div#cursor {fontSize:56px;fontWeight:bold; position: fixed; left:5px;bottom:5px;z-index:1}
+div#im { position: absolute ;}
+img#imu{
+-moz-box-shadow: 8px 8px 12px #000;
+-webkit-box-shadow: 8px 8px 12px #000;
+box-shadow: 8px 8px 12px #000;
+}
+</style>
+</head>
+
+<body id='body' onload="windowage()">
+
+<div id='im'>
+<img id="imu" src="../dossier sans titre/DSC_0372.jpg"/>
+</div>
+
+<div id='cursor'>
+<img id="plous" src="images/zoommoins.png" onclick="minus()"/>
+<img id="minous" src="images/zoomplus.png"  onclick="plus()"/>
+<img id="realpoixel" src="images/camera.png"  onclick="realpixel()"/>
+<img id="windows" src="images/zoom.png"  onclick="windowage()"/>
+</div>
+
+</body>
+</html>

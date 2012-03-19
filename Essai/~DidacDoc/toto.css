@@ -1,0 +1,189 @@
+/*
+
+*/
+
+html, body {background:black;overflow:hidden; margin:0; padding:0;width:100%;height:100%;}
+#audiop { position: absolute;z-index:5;}
+
+#header { 
+    position: absolute;
+    left: 0;
+    top:0;
+    border-bottom: 1px grey solid;
+    }
+    #ti{
+    position:absolute;
+    white-space: nowrap;
+    left:4px;
+    }
+    #logo{ 
+    position:absolute;
+    right:0;
+    z-index:2;
+    }
+
+#deb {
+  position:absolute;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  z-index:4;
+}
+
+#ifrd {
+  position:absolute;
+  overflow:hidden;
+  z-index:3;
+}
+
+#footer { 
+    position: absolute;
+    left: 0;
+    border-top: 1px grey solid;
+    }
+
+/**************************** MENU LATERAL ********/ 
+#deb {
+    overflow-y:scroll;
+    overflow-x:visible;
+    border-right: 1px grey solid;
+    }
+
+
+#nav {
+    padding: 0;
+    margin : 0; 
+	width: auto;
+	float: left;
+    cursor:pointer;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+/*************** li */
+#nav li {
+	width: auto;
+	display: block;
+	float: none;
+    padding :0 1% 1.5% 1%;
+    white-space: nowrap;
+}
+
+#nav li div{
+    display:inline;
+    padding :0 1% 1.5% 1%;
+    vertical-align:middle;
+}
+
+#nav li div:hover{
+cursor:pointer;
+position:relative;
+left:-2px;
+}
+
+/******************** UL */
+#nav ul{
+    list-style-type: none;
+    padding: 0; 
+    }
+/*************** images */
+#nav img{
+vertical-align:middle;
+}
+
+
+body {background:#A0A0A0 }
+#nav ul{margin-left: 15px;}
+#d0{
+font-size:24pt;
+font-weight:bold;
+color:#000000;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li,#d1{
+font-size:12pt;
+font-weight:normal;
+color:#FFFFFF;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li.dir,#d2{
+font-size:18pt;
+font-weight:normal;
+color:#606060;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li.dir,#d3{
+font-size:16pt;
+font-weight:normal;
+color:#D4D4D4;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li.dir,#d4{
+font-size:14pt;
+font-weight:normal;
+color:#E9E9E9;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li li.dir,#d5{
+font-size:18pt;
+font-weight:normal;
+color:white;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li li li.dir,#d6{
+font-size:16pt;
+font-weight:normal;
+color:yellow;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li li li li.dir,#d7{
+font-size:14pt;
+font-weight:normal;
+color:#D88967;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+#nav li li li li li li li.dir,#d8{
+font-size:12pt;
+font-weight:normal;
+color:yellow;
+font-family:Comic Sans MS,Arial,Helvetica,sans-serif;
+}
+
+/*
+/********************************** MENU : mise en forme ********/
+#nav {
+}
+/******************** LI */
+#nav li{
+}
+#nav li div{
+
+            left-padding:2%;
+            border-radius: 2em;
+            -webkit-border-radius: 2em;
+            -moz-border-radius: 2em;
+            
+            -moz-transition: all .5s;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+            }
+#nav li div:hover{
+background: gray;
+
+            -moz-transition: all .5s;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+            }
+/******************** UL */
+#nav ul{
+}

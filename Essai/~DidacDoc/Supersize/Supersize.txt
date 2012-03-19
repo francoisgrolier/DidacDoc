@@ -1,0 +1,42 @@
+autoplay : 1,          // Determines whether slideshow begins playing when page is loaded.
+fit_always : 0,        // Prevents the image from ever being cropped. Ignores minimum width and height.
+fit_landscape : 0,     // Prevents the image from being cropped by locking it at 100% width.
+fit_portrait : 1,      // Prevents the image from being cropped by locking it at 100% height.
+horizontal_center : 0, // Centers image horizontally. When turned off, the images resize/display from the left of the page.
+image_protect : 1,     // Disables right clicking and image dragging using Javascript.
+keyboard_nav : 1,      // Allows control via keyboard.
+                    // Spacebar - Pause or play
+                    // Right arrow or Up Arrow - Next slide
+                    // Left arrow or Down Arrow - Previous slide
+min_height : 0,        // Minimum height the image is allowed to be. If it is met, the image won't size down any further.
+min_width : 0,         // Minimum width the image is allowed to be. If it is met, the image won't size down any further.
+new_window : 1,        // Slide links open in a new window.
+pause_hover : 0,       // Pauses slideshow while current image hovered over.
+performance : 1,       // Uses image rendering options in Firefox and Internet Explorer to adjust image quality. This can speed up/slow down transitions. Webkit does               not yet support these options.
+                    // 0 - No adjustments
+                    // 1 - Hybrid, lowers image quality during transitions and restores after completed. (Default)
+                    // 2 - Higher image quality
+                    // 3 - Faster transition speed, lower image quality
+random : 0,            // Slides are shown in a random order. start_slide is disregarded.
+slideshow : 1,         // Turns the slideshow on/off. Disables navigation and transitions.
+slide_interval : 5000, // Time between slide changes in milliseconds.
+slide_links : 0,       // Generates a list of links that jump to the corresponding slide.
+                    // 0 or false - Disables slide links
+                    // 'number' - Numbers (Default)
+                    // 'name' - Title of slide
+                    // 'empty' - Links are empty. Allows for background sprites.
+start_slide : 1,       // The slide the slideshow starts on. *In the Core version, it controls which image is loaded, 0 causes a random image to be loaded each time.
+stop_loop : 0,         // Pauses slideshow upon reaching the last slide.
+thumb_links : 0,       // Generates a list of thumb links that jump to the corresponding slide. If the 'thumb' field for the slide is empty, it will simply scale down the full size image, which can slow performance.
+thumbnail_navigation : 0,// 0 Toggles forward/backward thumbnail navigation. When on, thumbnails from the next/previous posts are generated and can be clicked to navigate. If the 'thumb' field for the slide is empty, it will simply scale down the full size image.
+transition : 0,        // Controls which effect is used to transition between slides.
+                    // 0 or 'none' - No transition effect
+                    // 1 or 'fade' - Fade effect (Default)
+                    // 2 or 'slideTop' - Slide in from top
+                    // 3 or 'slideRight' - Slide in from right
+                    // 4 or 'slideBottom' - Slide in from bottom
+                    // 5 or 'slideLeft' - Slide in from left
+                    // 6 or 'carouselRight' - Carousel from right to left
+                    // 7 or 'carouselLeft' - Carousel from left to right
+transition_speed : 750,// 750 Speed of transitions in milliseconds.
+vertical_center : 0,   // Centers image vertically. When turned off, the images resize/display from the top of the page.
